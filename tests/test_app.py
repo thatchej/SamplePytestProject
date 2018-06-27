@@ -1,6 +1,6 @@
 import pytest
 
-from sample.app import div, fact, flatten, gcd
+from SamplePytestProject.app import div, fact, flatten, gcd
 
 @pytest.mark.testing_divisor
 def test_div():
