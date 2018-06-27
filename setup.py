@@ -1,7 +1,9 @@
 from setuptools import setup
 
 setup(
-    setup_requires=['pytest-runner'],
-    tests_require=['pytest'],
-    name='sample'
+    install_requires=[
+        'pytest',
+        'pytest-runner',
+    ],
+    name='SamplePytestProject',
 )
