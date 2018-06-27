@@ -7,18 +7,22 @@ Download and install python from [Python.org](https://www.python.org/). Version 
 
 ## Create Virtual Environment
 
-Run the following commands from the root folder of the forked project. 
+In a terminal use pip to install `virtualenv`.
 
 ```
 pip install virtualenv
-virtualenv SamplePytestProject
+```
+
+Then run the following commands from the root folder of the forked project. 
+
+```
+virtualenv venv
 ```
 
 Once that completes, also run this command from the same folder.
 
 ```
-source SamplePytestProject/bin/activate
-pip install pytest pytest-runner
+source venv/bin/activate
 python setup.py develop
 ```
 
